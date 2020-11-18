@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;osuma&apos; in &apos;taulukot.Veriryhmat.main(...)&apos; to &apos;osumat&apos;&#x0D;&#x0A;- Original project: &apos;Oma Harjoittelu&apos;&#x0D;&#x0A;- Original element: &apos;taulukot.Veriryhmat.main(String[]).osuma&apos;&#x0D;&#x0A;- Renamed element: &apos;osuma&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;osuma&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;taulukot{Veriryhmat.java[Veriryhmat~main~\[QString;@osuma!688!701!692!696!I!0!false" name="osumat" references="true" stamp="1599394533727" version="1.0"/>
+</session>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ZipFile"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
+		<item key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\35840\Desktop\kaksitasoinen_ohjelma (1).zip"/>
+			<item value="C:\Users\35840\Desktop\Koulu\ohjelmointi1\mallivastaukset\kertaus.zip"/>
+			<item value="C:\Users\35840\Desktop\Koulu\ohjelmointi1\mallivastaukset\taulukko.zip"/>
+			<item value="C:\Users\35840\Desktop\Koulu\ohjelmointi1\mallivastaukset\merkkijono.zip"/>
+			<item value="C:\Users\35840\Desktop\Koulu\ohjelmointi1\mallivastaukset\toistorakenne.zip"/>
+			<item value="C:\Users\35840\Desktop\toistorakenne.zip"/>
+			<item value="C:\Users\35840\Desktop\valintarakenne.zip"/>
+			<item value="C:\Users\35840\Desktop\perusteita.zip"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 3 elements to &apos;Eka_ohjelma_2_tasoinen/src/ohjelma&apos;&#x0D;&#x0A;- Original project: &apos;Eka_ohjelma_2_tasoinen&apos;&#x0D;&#x0A;- Destination element: &apos;Eka_ohjelma_2_tasoinen/src/ohjelma&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     AutoOhjelma.java&#x0D;&#x0A;     Lukija.java&#x0D;&#x0A;     YksinkertaisinMahdollinen.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src&lt;ohjelma" element1="/src&lt;{AutoOhjelma.java" element2="/src&lt;{Lukija.java" element3="/src&lt;{YksinkertaisinMahdollinen.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1603798771301" units="3" version="1.0"/>
+</session>

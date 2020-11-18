@@ -1,0 +1,13 @@
+INDEX VERSION 1.131
+C:\Users\35840\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1600358435.index
+\Autot\src
+C:\Users\35840\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2415703601.index
+\Kokeilu\src
+C:\Users\35840\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2666710077.index
+\Autot\src
+C:\Users\35840\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1824721570.index
+\Dynaaminen\src
+C:\Users\35840\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2993656568.index
+\Asiakkaat\src
+C:\Users\35840\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1297271061.index
+\Asiakaslistaus\src

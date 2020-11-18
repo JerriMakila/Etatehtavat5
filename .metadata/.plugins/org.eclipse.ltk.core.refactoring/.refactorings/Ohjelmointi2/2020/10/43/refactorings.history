@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;map.Kaverit.java&apos; to &apos;Kaveri.java&apos;&#x0D;&#x0A;- Original project: &apos;Ohjelmointi2&apos;&#x0D;&#x0A;- Original element: &apos;map.Kaverit.java&apos;&#x0D;&#x0A;- Renamed element: &apos;map.Kaveri.java&apos;" description="Rename compilation unit &apos;Kaverit.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;map{Kaverit.java" name="Kaveri.java" references="false" stamp="1603482883193" version="1.0"/>
+</session>

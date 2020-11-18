@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.sun.tools.sjavac.server.SysInfo"/>
+    <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
+    <fullyQualifiedTypeName name="luokat.Tuote"/>
+    <fullyQualifiedTypeName name="luokat.Toimittaja"/>
+    <fullyQualifiedTypeName name="luokat.Tilitapahtuma"/>
+    <fullyQualifiedTypeName name="luokat.Asunto"/>
+    <fullyQualifiedTypeName name="luokat.Henkilo"/>
+    <fullyQualifiedTypeName name="luokat.Remontti"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="luokat.Auto"/>
+    <fullyQualifiedTypeName name="luokat.Lampotila"/>
+    <fullyQualifiedTypeName name="luokat.Esittaja"/>
+    <fullyQualifiedTypeName name="luokat.Kappale"/>
+    <fullyQualifiedTypeName name="luokat.Tankkaus"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="model.Asiakas"/>
+</qualifiedTypeNameHistroy>

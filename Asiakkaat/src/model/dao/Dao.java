@@ -76,7 +76,7 @@ public class Dao {
 				stmtPrep.setString(1, "%" + hakusana + "%");
 				stmtPrep.setString(2, "%" + hakusana + "%");   
 				stmtPrep.setString(3, "%" + hakusana + "%"); 
-				stmtPrep.setNString(4, "%" + hakusana + "%");
+				stmtPrep.setString(4, "%" + hakusana + "%");
         		rs = stmtPrep.executeQuery();
         		
 				if(rs != null){				

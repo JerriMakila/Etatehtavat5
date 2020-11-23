@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;hakusana&apos; in &apos;control.Asiakkaat.doGet(...)&apos; to &apos;pathInfo&apos;&#x0D;&#x0A;- Original project: &apos;Asiakaslistaus&apos;&#x0D;&#x0A;- Original element: &apos;control.Asiakkaat.doGet(HttpServletRequest, HttpServletResponse).hakusana&apos;&#x0D;&#x0A;- Renamed element: &apos;hakusana&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;hakusana&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;control{Asiakkaat.java[Asiakkaat~doGet~QHttpServletRequest;~QHttpServletResponse;@hakusana!785!828!792!799!QString;!0!false" name="pathInfo" references="true" stamp="1605705956620" version="1.0"/>
+</session>

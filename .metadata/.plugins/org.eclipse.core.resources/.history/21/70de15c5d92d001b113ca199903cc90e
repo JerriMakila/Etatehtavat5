@@ -1,0 +1,87 @@
+	input[type=button],
+	input[type=submit] {
+		background-color: purple;
+		color: white;
+	}
+	
+	input[type=text]{
+		vertical-align: top;
+	}
+
+	table {
+		border-collapse: collapse;
+		margin: auto;
+	}
+
+	th,
+	td {
+		border: 1px solid black;
+		padding: 5px 10px;
+	}
+	
+	thead tr {
+		background-color: purple;
+		color: white;
+	}
+	
+	thead th {
+		border: 1px solid white;
+	}
+	
+	.asiakasrivi:nth-of-type(even){
+		background-color: #E8E8E8;
+	}
+	
+	.data-input {
+		background-color: rgba(128,0,128,0.1);
+	}
+	
+	.left-arrow{
+		border: solid purple;
+  		border-width: 0 3px 3px 0;
+  		display: inline-block;
+  		margin-right: 5px;
+  		padding: 3px;
+  		transform: rotate(135deg);
+  		-webkit-transform: rotate(135deg);
+	}
+	
+	.poista{
+		color: red;
+		text-decoration: underline;
+		cursor: pointer;	
+	}
+	
+	.right-arrow{
+		border: solid purple;
+  		border-width: 0 3px 3px 0;
+  		display: inline-block;
+  		margin-left: 5px;
+  		padding: 3px;
+  		transform: rotate(-45deg);
+  		-webkit-transform: rotate(-45deg);
+	}
+	
+	.siirto {
+		cursor: pointer;
+	}
+	
+	#ilmo {
+		margin-top: 5px;
+		text-align: center;
+	}
+	
+	#takaisin,
+	#uusiAuto {
+		background-color: white;
+		color: purple;
+		padding-left: 20px;
+	}
+	
+	#takaisin{
+		text-align: left;
+	}
+	
+	#uusiAsiakas {
+		text-align: right;
+	}

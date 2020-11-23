@@ -1,0 +1,56 @@
+	input[type=button] {
+		background-color: white;
+	}
+	
+	input[type=text]{
+		margin-top: 0px;
+	}
+
+	table {
+		border-collapse: collapse;
+		margin: auto;
+	}
+
+	th,
+	td {
+		border: 1px solid black;
+		padding: 5px 10px;
+	}
+	
+	thead tr {
+		background-color: purple;
+		color: white;
+	}
+	
+	thead th {
+		border: 1px solid white;
+	}
+	
+	.asiakasrivi:nth-of-type(even){
+		background-color: #E8E8E8;
+	}
+	
+	.data-input {
+		padding-top: 0px;
+	}
+
+	#left-arrow{
+		border: solid purple;
+  		border-width: 0 3px 3px 0;
+  		display: inline-block;
+  		margin-right: 5px;
+  		padding: 3px;
+  		transform: rotate(135deg);
+  		-webkit-transform: rotate(135deg);
+	}
+	
+	#siirto {
+		cursor: pointer;
+	}
+	
+	#takaisin {
+		background-color: white;
+		color: purple;
+		padding-left: 20px;
+		text-align: left;
+	}

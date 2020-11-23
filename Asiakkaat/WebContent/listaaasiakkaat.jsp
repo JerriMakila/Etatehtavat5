@@ -5,51 +5,26 @@
 <head>
 <meta charset="ISO-8859-1">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" href="css\main.css">
 <title>Asiakkaat</title>
-<style>
-	input[type=button] {
-		background-color: white;
-	}
-
-	table {
-		border-collapse: collapse;
-		margin: auto;
-	}
-
-	th,
-	td {
-		border: 1px solid black;
-		padding: 5px 10px;
-	}
-	
-	thead tr {
-		background-color: purple;
-		color: white;
-	}
-	
-	thead th {
-		border: 1px solid white;
-	}
-	
-	.asiakasrivi:nth-of-type(even){
-		background-color: #E8E8E8;
-	}
-	
-</style>
 </head>
 <body>
 <table id="listaus">
-	<thead>	
+	<thead>
+		<tr>
+			<th colspan="5" id="uusiAsiakas"><span class="siirto">Lisää uusi asiakas<span class="right-arrow"></span></span></th>
+		</tr>
 		<tr>
 			<th>Hakusana:</th>
-			<th colspan="2"><input type="text" id="hakusana"></th>
+			<th colspan="3"><input type="text" id="hakusana"></th>
 			<th><input type="button" value="Hae" id="hakunappi"></th>
 		</tr>			
 		<tr>
 			<th>Etunimi</th>
 			<th>Sukunimi</th>
 			<th>Puhelinnumero</th>
-			<th>Sähköposti</th>							
+			<th>Sähköposti</th>	
+			<th></th>						
 		</tr>
 	</thead>
 	<tbody>
@@ -58,6 +33,10 @@
 <script>
 $(document).ready(function(){
 	haeAsiakkaat();
+	
+	$(".siirto").click(function(){
+		document.location="lisaaasiakas.jsp";
+	});
 	
 	$("#hakunappi").click(function(){		
 		haeAsiakkaat();
@@ -81,10 +60,24 @@ function haeAsiakkaat(){
         		"<td>"+field.sukunimi+"</td>" +
         		"<td>"+field.puhelin+"</td>" +
         		"<td>"+field.sposti+"</td>" +  
+        		"<td><span class='poista' onclick=poista('"+field.id+"','"+field.etunimi+"','"+field.sukunimi+"')>Poista</span></td>" +
         		"</tr>";
         	$("#listaus tbody").append(htmlStr);
         });	
     }});
+}
+
+function poista(id, etunimi, sukunimi){
+	if(confirm("Haluatko varmasti poistaa asiakkaan " + etunimi + " " + sukunimi + "?")){
+		$.ajax({url:"asiakkaat/" + id, type:"DELETE", dataType:"json", success:function(result) {
+	        if(result.response==0){
+	        	$("#ilmo").html("Asiakkaan poisto epäonnistui.");
+	        }else if(result.response==1){
+	        	alert("Asiakkaan " + etunimi + " " + sukunimi + " poisto onnistui.");
+				haeAsiakkaat();        	
+			}
+	    }});
+	}
 }
 
 </script>

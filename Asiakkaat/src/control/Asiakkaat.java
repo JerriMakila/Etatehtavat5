@@ -23,13 +23,57 @@ public class Asiakkaat extends HttpServlet {
     }
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String pathInfo = request.getPathInfo();		
-		String hakusana = pathInfo.replace("/", "");
+		String pathInfo = request.getPathInfo();
+		String hakusana = "";
+		
+		if(pathInfo != null) {
+			hakusana = pathInfo.replace("/", "");
+		}
+		
 		Dao dao = new Dao();
-		ArrayList<Asiakas> asiakkaat = dao.listaaKaikki(hakusana);
+		ArrayList<Asiakas> asiakkaat;
+		
+		if(hakusana == "" || hakusana == "*") {
+			asiakkaat = dao.listaaKaikki();
+		} else {
+			asiakkaat = dao.listaaKaikki(hakusana);
+		}
+		
 		String strJSON = new JSONObject().put("asiakkaat", asiakkaat).toString();	
 		response.setContentType("application/json");
 		PrintWriter out = response.getWriter();
 		out.println(strJSON);		
+	}
+	
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		JSONObject jsonObj = new JsonStrToObj().convert(request);		
+		Asiakas asiakas = new Asiakas();
+		asiakas.setEtunimi(jsonObj.getString("etunimi"));
+		asiakas.setSukunimi(jsonObj.getString("sukunimi"));
+		asiakas.setPuhelin(jsonObj.getString("puhelin"));
+		asiakas.setSposti(jsonObj.getString("sposti"));
+		response.setContentType("application/json");
+		PrintWriter out = response.getWriter();
+		Dao dao = new Dao();		
+		
+		if(dao.lisaaAsiakas(asiakas)){
+			out.println("{\"response\":1}");
+		}else{
+			out.println("{\"response\":0}");
+		}		
+	}
+	
+	protected void doDelete(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String pathInfo = request.getPathInfo();
+		String poistettavaAsiakas = pathInfo.replace("/", "");
+		response.setContentType("application/json");
+		PrintWriter out = response.getWriter();
+		Dao dao = new Dao();
+		
+		if(dao.poistaAsiakas(poistettavaAsiakas)){
+			out.println("{\"response\":1}");
+		}else{
+			out.println("{\"response\":0}");
+		}	
 	}
 }

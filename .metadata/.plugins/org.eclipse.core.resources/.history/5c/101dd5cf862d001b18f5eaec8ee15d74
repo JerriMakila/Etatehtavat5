@@ -1,0 +1,56 @@
+input[type=button] {
+		background-color: white;
+	}
+
+	table {
+		border-collapse: collapse;
+		margin: auto;
+	}
+
+	th,
+	td {
+		border: 1px solid black;
+		padding: 100px 200px;
+	}
+	
+	thead tr {
+		background-color: black;
+		color: black;
+	}
+	
+	thead th {
+		border: 1px solid white;
+	}
+	
+	.asiakasrivi:nth-of-type(even){
+		background-color: #E8E8E8;
+	}
+	
+	.data-input {
+		background-color: purple;
+		display: flex;
+		flex-direction: column;
+		font-size: 300%;
+		align-items: flex-start;
+	}
+
+	#left-arrow{
+		border: solid purple;
+  		border-width: 0 3px 3px 0;
+  		display: inline-block;
+  		margin-right: 5px;
+  		padding: 3px;
+  		transform: rotate(135deg);
+  		-webkit-transform: rotate(135deg);
+	}
+	
+	#siirto {
+		cursor: pointer;
+	}
+	
+	#takaisin {
+		background-color: white;
+		color: purple;
+		padding-left: 20px;
+		text-align: left;
+	}

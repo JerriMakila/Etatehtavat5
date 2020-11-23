@@ -200,3 +200,148 @@ Nov 18, 2020 13:51:17.27
 Nov 18, 2020 13:51:17.35 
 Nov 18, 2020 13:51:17.41 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 Nov 18, 2020 13:51:17.47 
+Nov 18, 2020 14:10:16.733 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Nov 18, 2020 14:10:16.739 Can't find symbol 'eglSetDamageRegionKHR'.
+Nov 18, 2020 14:11:08.135 
+Nov 18, 2020 14:11:08.145 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Nov 18, 2020 14:11:08.152 
+Nov 18, 2020 14:11:08.160 
+Nov 18, 2020 14:11:08.168 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Nov 18, 2020 14:11:08.175 
+
+Nov 18, 2020 15:19:29.728 NEW SESSION
+Nov 18, 2020 15:19:29.728 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Nov 18, 2020 15:19:29.733 Can't find symbol 'eglSetDamageRegionKHR'.
+
+Nov 18, 2020 22:27:12.949 NEW SESSION
+Nov 18, 2020 22:27:12.949 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Nov 18, 2020 22:27:12.954 Can't find symbol 'eglSetDamageRegionKHR'.
+Nov 18, 2020 23:03:47.452 
+Nov 18, 2020 23:03:47.460 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Nov 18, 2020 23:03:47.465 
+Nov 18, 2020 23:03:47.482 
+Nov 18, 2020 23:03:47.489 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Nov 18, 2020 23:03:47.494 
+Nov 18, 2020 23:14:11.545 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Nov 18, 2020 23:14:11.551 Can't find symbol 'eglSetDamageRegionKHR'.
+Nov 18, 2020 23:14:32.549 
+Nov 18, 2020 23:14:32.557 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Nov 18, 2020 23:14:32.563 
+Nov 18, 2020 23:14:32.580 
+Nov 18, 2020 23:14:32.589 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Nov 18, 2020 23:14:32.595 
+
+Nov 20, 2020 21:59:34.180 NEW SESSION
+Nov 20, 2020 21:59:34.180 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Nov 20, 2020 21:59:34.191 Can't find symbol 'eglSetDamageRegionKHR'.
+Nov 20, 2020 22:14:14.189 
+Nov 20, 2020 22:14:14.197 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Nov 20, 2020 22:14:14.202 
+Nov 20, 2020 22:16:45.17 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Nov 20, 2020 22:16:45.23 Can't find symbol 'eglSetDamageRegionKHR'.
+Nov 20, 2020 22:33:29.802 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Nov 20, 2020 22:33:29.810 Can't find symbol 'eglSetDamageRegionKHR'.
+Nov 20, 2020 22:34:00.865 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Nov 20, 2020 22:34:00.872 Can't find symbol 'eglSetDamageRegionKHR'.
+Nov 20, 2020 22:34:13.442 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Nov 20, 2020 22:34:13.449 Can't find symbol 'eglSetDamageRegionKHR'.
+Nov 20, 2020 22:37:43.330 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Nov 20, 2020 22:37:43.337 Can't find symbol 'eglSetDamageRegionKHR'.
+
+Nov 23, 2020 13:45:18.877 NEW SESSION
+Nov 23, 2020 13:45:18.877 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Nov 23, 2020 13:45:18.883 Can't find symbol 'eglSetDamageRegionKHR'.
+Nov 23, 2020 14:17:29.249 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Nov 23, 2020 14:17:29.255 Can't find symbol 'eglSetDamageRegionKHR'.
+Nov 23, 2020 14:17:32.819 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Nov 23, 2020 14:17:32.825 Can't find symbol 'eglSetDamageRegionKHR'.
+Nov 23, 2020 14:21:32.18 
+Nov 23, 2020 14:21:32.27 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Nov 23, 2020 14:21:32.32 
+Nov 23, 2020 14:21:32.61 
+Nov 23, 2020 14:21:32.69 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Nov 23, 2020 14:21:32.74 
+
+Nov 23, 2020 14:22:29.538 NEW SESSION
+Nov 23, 2020 14:22:29.538 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Nov 23, 2020 14:22:29.543 Can't find symbol 'eglSetDamageRegionKHR'.
+
+Nov 23, 2020 14:26:52.302 NEW SESSION
+Nov 23, 2020 14:26:52.302 [4328:5980:1123/142652.301:ERROR:device_event_log_impl.cc(211)] [14:26:52.300] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Nov 23, 2020 14:27:28.677 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Nov 23, 2020 14:27:28.681 Can't find symbol 'eglSetDamageRegionKHR'.
+Nov 23, 2020 14:27:33.488 
+Nov 23, 2020 14:27:33.496 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Nov 23, 2020 14:27:33.503 
+Nov 23, 2020 14:27:33.517 
+Nov 23, 2020 14:27:33.526 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Nov 23, 2020 14:27:33.533 
+Nov 23, 2020 14:28:01.573 [3832:12812:1123/142801.573:ERROR:device_event_log_impl.cc(211)] [14:28:01.573] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Nov 23, 2020 14:37:51.926 [1123/143751.925:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+Nov 23, 2020 15:03:51.203 [3272:7368:1123/150351.203:ERROR:device_event_log_impl.cc(211)] [15:03:51.203] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Nov 23, 2020 15:13:40.855 [1123/151340.854:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+
+Nov 23, 2020 20:59:18.167 NEW SESSION
+Nov 23, 2020 20:59:18.167 [15240:15104:1123/205918.166:ERROR:device_event_log_impl.cc(211)] [20:59:18.166] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Nov 23, 2020 21:00:09.132 [6412:9260:1123/210009.131:ERROR:device_event_log_impl.cc(211)] [21:00:09.131] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Nov 23, 2020 21:00:27.86 [7656:10716:1123/210027.085:ERROR:device_event_log_impl.cc(211)] [21:00:27.086] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Nov 23, 2020 21:01:14.529 [15132:3024:1123/210114.529:ERROR:device_event_log_impl.cc(211)] [21:01:14.528] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Nov 23, 2020 21:02:07.315 [12880:1768:1123/210207.315:ERROR:device_event_log_impl.cc(211)] [21:02:07.315] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Nov 23, 2020 21:07:08.237 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Nov 23, 2020 21:07:08.243 Can't find symbol 'eglSetDamageRegionKHR'.
+Nov 23, 2020 21:09:06.251 
+Nov 23, 2020 21:09:06.261 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Nov 23, 2020 21:09:06.266 
+Nov 23, 2020 21:09:06.287 
+Nov 23, 2020 21:09:06.295 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Nov 23, 2020 21:09:06.300 
+Nov 23, 2020 21:10:21.54 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Nov 23, 2020 21:10:21.62 Can't find symbol 'eglSetDamageRegionKHR'.
+Nov 23, 2020 21:16:35.908 
+Nov 23, 2020 21:16:35.916 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Nov 23, 2020 21:16:35.922 
+
+Nov 23, 2020 21:18:13.588 NEW SESSION
+Nov 23, 2020 21:18:13.588 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Nov 23, 2020 21:18:13.595 Can't find symbol 'eglSetDamageRegionKHR'.
+Nov 23, 2020 21:38:05.209 
+Nov 23, 2020 21:38:05.218 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Nov 23, 2020 21:38:05.225 
+Nov 23, 2020 21:38:05.241 
+Nov 23, 2020 21:38:05.249 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Nov 23, 2020 21:38:05.255 
+Nov 23, 2020 21:38:19.868 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Nov 23, 2020 21:38:19.873 Can't find symbol 'eglSetDamageRegionKHR'.
+Nov 23, 2020 21:40:14.385 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Nov 23, 2020 21:40:14.391 Can't find symbol 'eglSetDamageRegionKHR'.
+Nov 23, 2020 21:42:24.83 [Parent 3464, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+Nov 23, 2020 21:42:24.124 
+Nov 23, 2020 21:42:24.132 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Nov 23, 2020 21:42:24.137 
+Nov 23, 2020 21:42:24.167 
+Nov 23, 2020 21:42:24.174 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Nov 23, 2020 21:42:24.180 
+Nov 23, 2020 21:43:50.359 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Nov 23, 2020 21:43:50.365 Can't find symbol 'eglSetDamageRegionKHR'.
+Nov 23, 2020 21:46:57.607 
+Nov 23, 2020 21:46:57.617 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Nov 23, 2020 21:46:57.622 
+Nov 23, 2020 21:46:57.644 
+Nov 23, 2020 21:46:57.653 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Nov 23, 2020 21:46:57.658 
+
+Nov 23, 2020 22:37:13.405 NEW SESSION
+Nov 23, 2020 22:37:13.405 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Nov 23, 2020 22:37:13.410 Can't find symbol 'eglSetDamageRegionKHR'.
+Nov 23, 2020 22:42:08.860 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Nov 23, 2020 22:42:08.869 Can't find symbol 'eglSetDamageRegionKHR'.
+Nov 23, 2020 22:46:38.489 
+Nov 23, 2020 22:46:38.497 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Nov 23, 2020 22:46:38.502 
+Nov 23, 2020 22:46:38.532 
+Nov 23, 2020 22:46:38.540 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Nov 23, 2020 22:46:38.547 
+
+Nov 23, 2020 23:53:48.43 NEW SESSION
+Nov 23, 2020 23:53:48.43 [4612:8828:1123/235348.041:ERROR:device_event_log_impl.cc(211)] [23:53:48.042] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Nov 24, 2020 24:03:47.355 [1124/000347.355:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

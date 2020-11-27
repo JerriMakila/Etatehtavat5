@@ -59,8 +59,9 @@ function haeAsiakkaat(){
         		"<td>"+field.etunimi+"</td>" +
         		"<td>"+field.sukunimi+"</td>" +
         		"<td>"+field.puhelin+"</td>" +
-        		"<td>"+field.sposti+"</td>" +  
-        		"<td><span class='poista' onclick=poista('"+field.id+"','"+field.etunimi+"','"+field.sukunimi+"')>Poista</span></td>" +
+        		"<td>"+field.sposti+"</td>" +
+        		"<td><a href='muutaasiakas.jsp?id="+field.id+"'>Muuta</a>&nbsp;" +
+        		"<span class='poista' onclick=poista('"+field.id+"','"+field.etunimi+"','"+field.sukunimi+"')>Poista</span></td>" +
         		"</tr>";
         	$("#listaus tbody").append(htmlStr);
         });	

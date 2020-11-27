@@ -17,7 +17,10 @@
 		<thead>	
 			<tr>
 				<th colspan="5" id="takaisin"><span class="siirto"><span class="left-arrow"></span>Takaisin listaukseen</span></th>
-			</tr>		
+			</tr>
+			<tr>
+				<th colspan="5" id="ohje">Syötä uuden asiakkaan tiedot</th>
+			</tr>
 			<tr>
 				<th>Etunimi</th>
 				<th>Sukunimi</th>
@@ -90,6 +93,8 @@ $(document).ready(function(){
 			lisaaTiedot();
 		}		
 	});
+	
+	$("#etunimi").focus();
 });
 
 function lisaaTiedot(){	
@@ -100,9 +105,15 @@ function lisaaTiedot(){
       		$("#ilmo").html("Asiakkaan lisääminen epäonnistui.");
       	}else if(result.response==1){			
       		$("#ilmo").html("Asiakkaan lisääminen onnistui.");
-      		$("#tiedot").find("input[type=text]").val("");
+      		tyhjennaKentat();
 	  	}		
   }});	
+}
+
+function tyhjennaKentat(){
+	$(":text").each(function(){
+  		$(this).val("");
+  	});
 }
 </script>
 </html>

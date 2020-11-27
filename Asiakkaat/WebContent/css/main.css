@@ -48,8 +48,10 @@
 	
 	.poista{
 		color: red;
-		text-decoration: underline;
 		cursor: pointer;	
+	}
+	.poista:hover {
+		text-decoration: underline;
 	}
 	
 	.right-arrow{
@@ -67,11 +69,17 @@
 	}
 	.siirto:hover {
 		color: pink;
+		text-decoration: underline;
 	}
 	
 	#ilmo {
 		margin-top: 5px;
 		text-align: center;
+	}
+	
+	#ohje {
+		background-color: white;
+		color: black;
 	}
 	
 	#takaisin,

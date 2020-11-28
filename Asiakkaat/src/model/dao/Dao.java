@@ -148,26 +148,6 @@ public class Dao {
 		return paluuArvo;
 	}
 	
-	/*public boolean muutaAsiakas(Asiakas asiakas){
-		boolean paluuArvo=true;
-		sql="UPDATE asiakkaat SET etunimi = ?, sukunimi = ?, puhelin = ?, sposti = ? WHERE asiakas_id = ?";						  
-		try {
-			con = yhdista();
-			stmtPrep=con.prepareStatement(sql);			
-			stmtPrep.setString(1, asiakas.getEtunimi());
-			stmtPrep.setString(2, asiakas.getSukunimi());
-			stmtPrep.setString(3, asiakas.getPuhelin());
-			stmtPrep.setString(4, asiakas.getSposti());
-			stmtPrep.setInt(5, asiakas.getId());
-			stmtPrep.executeUpdate();
-		    con.close();	
-		} catch (Exception e) {				
-			e.printStackTrace();
-			paluuArvo = false;
-		}				
-		return paluuArvo;
-	} */
-	
 	public boolean muutaAsiakas(Asiakas asiakas){
 		boolean paluuArvo=true;
 		
